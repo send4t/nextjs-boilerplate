@@ -90,6 +90,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+            <div><p><button onlick="getPoem()">clicky me</button></p></div>
     </main>
   )
 }
