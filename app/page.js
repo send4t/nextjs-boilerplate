@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import ApiButton from './apibutton.js';
+import ApiButton from './apibutton.js'
 
 export default function Home() {
   return (
@@ -91,7 +91,7 @@ export default function Home() {
           </p>
         </a>
       </div>
-            <div><p><button onlick="ApiButton()">clicky me</button></p></div>
+            <div><p><button onlick="ApiButton">clicky me</button></p></div>
     </main>
   )
 }
