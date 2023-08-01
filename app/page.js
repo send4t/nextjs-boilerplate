@@ -49,18 +49,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p><button> const fetchData = async () => {
-    try {
-      setIsLoading(true);
-      const response = await fetch('https://extinct-jade-bedclothes.cyclic.app/');
-      const data = await response.json();
-      setData(data);
-      setIsLoading(false);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-      setIsLoading(false);
-    }
-  };</button></p>
+          <p><button onlick="getPoem()">click me</button></p>
         </a>
 
         <a
